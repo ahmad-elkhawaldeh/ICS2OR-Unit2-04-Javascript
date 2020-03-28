@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my webpage </title>
+    <meta charset="utf-8">
+    <meta name="descirption" content="webpage, with buttons ">
+    <meta name="keywords" content="Mths,website">
+    <meta name="author" content="Ahmad-El-khawaldeh">
+    <meta name="viewport" content="width=device-width,intial-scale1.0">
+   </head>
+   <body  id="be">
+   <button onclick="myfunction()">change backgroundColor</button>
+      <script>
+     function myfunction() {
+       document.getElementById("be").style.backgroundColor="yellow";
+     }
+      </script>
+      <p id="rama"
+        <button onclick="myfunction1()">place a massage</button>
+        <script>
+            function myfunction1() {
+                document.getElementById("rama").innerHTML="A massage";
+            }
+        </script>
+        <br>
+        <br>
+        <input type="text" id="ent" value="text">
+        <p id="dema"></p>
+        <button onclick="myfunction2()">take out your text</button>
+        <script>
+            function myfunction2() {
+               var x = document.getElementById("ent").value;
+               document.getElementById("dema").innerHTML = x;
+               alert ("your message ");
+               document.getElementById("ent").value="";
+            }
+          </script>
+          </body>
+          </html>
